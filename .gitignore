@@ -21,3 +21,16 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/CursoKotlinUdemy/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+/CursoKotlinUdemy/.gradle/buildOutputCleanup/cache.properties
+/CursoKotlinUdemy/.gradle/checksums/checksums.lock
+/CursoKotlinUdemy/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock
+/CursoKotlinUdemy/.gradle/7.1/executionHistory/executionHistory.bin
+/CursoKotlinUdemy/.gradle/7.1/executionHistory/executionHistory.lock
+/CursoKotlinUdemy/.gradle/7.1/fileHashes/fileHashes.bin
+/CursoKotlinUdemy/.gradle/7.1/fileHashes/fileHashes.lock
+/CursoKotlinUdemy/.gradle/7.1/dependencies-accessors/gc.properties
+/CursoKotlinUdemy/.gradle/7.1/gc.properties
+/CursoKotlinUdemy/.gradle/vcs-1/gc.properties
+/CursoKotlinUdemy/.gradle/7.1/fileChanges/last-build.bin
+/CursoKotlinUdemy/.gradle/buildOutputCleanup/outputFiles.bin
