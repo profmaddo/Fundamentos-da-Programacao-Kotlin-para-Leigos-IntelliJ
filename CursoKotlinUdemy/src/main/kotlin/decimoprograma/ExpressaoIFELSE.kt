@@ -23,7 +23,7 @@ fun main(){
 
 fun executarProcessamento(){
 
-    print("Processando...")
+    print("Processando....")
 }
 
 fun naoExecutarProcessamento(){
