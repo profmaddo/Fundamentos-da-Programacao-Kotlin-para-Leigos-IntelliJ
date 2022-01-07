@@ -1,17 +1,29 @@
 fun main(args: Array<String>){
 
-    var numeroBinario = "11111111"
+    var numeroBinario: Long = 1000000
     var numeroDecimal:Int = 0
 
     println("Método Principal")
     numeroDecimal = conversaoBinarioDecimal(numeroBinario)
 
-    println("Número convertido: $numeroDecimal")
+    println("Número Binário $numeroBinario = $numeroDecimal")
 }
 
-fun conversaoBinarioDecimal(numeroBinario:String):Int {
+fun conversaoBinarioDecimal(numeroBinario: Long): Int {
 
-    println("Método de Conversão: $numeroBinario")
+    var numeroBinario = numeroBinario
+    var numeroDecimal = 0
+    var i = 0
+    var numeroTemporario: Long
 
-    return 255
+    while(numeroBinario.toInt() != 0){
+
+        numeroTemporario = numeroBinario % 10
+        numeroBinario /= 10
+        numeroDecimal +=   (numeroTemporario * Math.pow(2.0, i.toDouble())).toInt()
+        ++i
+
+    }
+
+    return numeroDecimal
 }
