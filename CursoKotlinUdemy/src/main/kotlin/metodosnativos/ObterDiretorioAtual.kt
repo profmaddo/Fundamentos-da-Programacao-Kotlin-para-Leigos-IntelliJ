@@ -4,7 +4,7 @@ fun main(){
 
 }
 
-fun getCaminhoAtual():String {
+fun getCaminhoAtual(): String {
 
     return System.getProperty("user.dir")
 }

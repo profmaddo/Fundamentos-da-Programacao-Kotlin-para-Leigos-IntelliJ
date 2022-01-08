@@ -1,9 +1,9 @@
 fun main() {
 
-    var anoDeNascimento = 2000
-    var anoAtual = 2021
+    var anoDeNascimento = 1965
+    var anoAtual = 2022
 
-    var resultadoDoCalculo = calcularAnosDeVida(anoDeNascimento,anoAtual)
+    var resultadoDoCalculo = calcularAnosDeVida(anoDeNascimento, anoAtual)
 
     imprimirResultados(anoDeNascimento,anoAtual, resultadoDoCalculo)
 

@@ -8,7 +8,6 @@ fun main(){
 
 }
 
-fun getDataHoraAtual():LocalDateTime{
-
+fun getDataHoraAtual(): LocalDateTime{
     return  LocalDateTime.now()
 }
